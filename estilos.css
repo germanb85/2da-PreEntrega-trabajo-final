@@ -142,28 +142,78 @@ font-family: 'Roboto', sans-serif;
 .torneo .dorso{
   transform: perspective(600px) rotateY(180deg);
   padding: 15px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
   box-shadow: 0 5px 10px rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
 }
 
 .torneo .dorso .link{
   border-top: solid 1px rgb(0, 0, 0);
   height: 50px;
-  line-height: 50px;
+  line-height: 70px;
+  font-family: 'Roboto', sans-serif;
   }
 
   .torneo .dorso .link a{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    background-color: rgb(131, 131, 131);
+    padding: 5px;
+    border-radius: 10px;
   }
 
   .torneo .dorso h3{
-    font-size: 30px;
+    font-size: 60px;
     margin-top: 10px;
     letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .torneo .dorso p{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .imagen0{
+    background-image: url(imagenes/0-ccp-dorso.jpg);
+  }
+  .imagen1{
+    background-image: url(imagenes/1-ccp-dorso.jpg);
+  }
+  .imagen2{
+    background-image: url(imagenes/2-ccp-dorso.jpg);
+  }
+  .imagen3{
+    background-image: url(imagenes/3-ccp-dorso.jpg);
+  }
+  .imagen4{
+    background-image: url(imagenes/4-ccp-dorso.jpg);
+  }
+  .imagen5{
+    background-image: url(imagenes/5-ccp-dorso.jpg);
+  }
+  .imagen6{
+    background-image: url(imagenes/6-ccp-dorso.jpg);
+  }
+  .imagen7{
+    background-image: url(imagenes/7-ccp-dorso.jpg);
+  }
+  .imagen8{
+    background-image: url(imagenes/8-ccp-dorso.jpg);
+  }
+  .imagen9{
+    background-image: url(imagenes/9-ccp-dorso.jpg);
+  }
+  .imagen10{
+    background-image: url(imagenes/10-ccp-dorso.jpg);
+  }
+  .imagen11{
+    background-image: url(imagenes/11-ccp-dorso.jpg);
   }
 
   .torneo .dorso p{
@@ -177,12 +227,6 @@ font-family: 'Roboto', sans-serif;
   .torneo:hover .dorso{
     transform: perspective(600px) rotateY(360deg)
   }
-
-
-
-
-
-
 
 /*" RANKING "*/
 
@@ -418,7 +462,6 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 0 auto;
 }
-
 form{
   width: 40%;
   margin: 0 auto;
@@ -459,5 +502,4 @@ form{
     padding: 1%;
     background-color: rgb( 105, 223, 225);
     margin: 0 auto;
-    
   }
