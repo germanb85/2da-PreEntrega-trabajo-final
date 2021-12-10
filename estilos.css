@@ -19,6 +19,8 @@ body{
     text-align: center;
     margin: 0 auto;
     width: auto;
+    padding: 10px;
+    transform: translateY(10px);
 }
 
 /*" ANIMACION LOGO"*/
@@ -129,7 +131,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .torneo .frente{
-  transform: perspective(600px) rotateY(0deg);
+  transform:  rotateY(0deg);
   box-shadow: 0 5px 10px rgb(0, 0, 0);
 }
 
@@ -140,7 +142,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .torneo .dorso{
-  transform: perspective(600px) rotateY(180deg);
+  transform:  rotateY(180deg);
   padding: 15px;
   color: rgb(202, 202, 202);
   display: flex;
@@ -221,11 +223,11 @@ font-family: 'Roboto', sans-serif;
   }
 
   .torneo:hover .frente{
-    transform: perspective(600px) rotateY(180deg)
+    transform: perspective(2600px) rotateY(180deg)
   }
 
   .torneo:hover .dorso{
-    transform: perspective(600px) rotateY(360deg)
+    transform: perspective(2600px) rotateY(360deg)
   }
 
 /*" RANKING "*/
@@ -234,6 +236,7 @@ font-family: 'Roboto', sans-serif;
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 10px;
 }
 
 @media (max-width: 1300px){
@@ -248,6 +251,7 @@ font-family: 'Roboto', sans-serif;
     justify-content: center;
     min-height: 100vh;
     flex-wrap: wrap;
+    margin-top: 20px;
   }
   
   .ranking{
@@ -347,6 +351,7 @@ font-family: 'Roboto', sans-serif;
 .carusel{
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
 
 /*" CALENDARIO "*/
@@ -356,11 +361,13 @@ font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
   }
 
   .botones-calendario{
     align-items: center;
     text-align: center;
+    margin-bottom: 20px;
   }
 
 /*" VIDEO YOU TUBE INDEX "*/
@@ -461,10 +468,7 @@ font-family: 'Roboto', sans-serif;
     align-items: center;
     text-align: center;
     margin: 0 auto;
-}
-form{
-  width: 40%;
-  margin: 0 auto;
+    padding: 20px;
 }
 
   /*" FOOTER "*/
