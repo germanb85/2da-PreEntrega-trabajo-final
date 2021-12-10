@@ -57,6 +57,10 @@ font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     }
 
+.row{
+  padding: 10px;
+}
+
 /*" PAGINAS SECUNDARIAS "*/
 
 .imagen-sanyo-y-tapia{
@@ -392,11 +396,16 @@ font-family: 'Roboto', sans-serif;
 
 /*" PATROCINADORES "*/
 
+.patrocinadores-logo{
+  padding: 20px;
+}
+
 .socio-principal{
     text-align: center;
     color: rgb(33, 54, 111);
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    padding: 10px;
   }
   
   .imagen-adidas{
@@ -404,6 +413,7 @@ font-family: 'Roboto', sans-serif;
     margin: 0px auto;
     text-align: center;
     align-items: center;
+    padding: 10px;
   }
   
   .socio-premium{
@@ -411,6 +421,7 @@ font-family: 'Roboto', sans-serif;
     color: rgb(33, 54, 111);
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    padding: 10px;
   }
   
   .imagen-coca-cola{
@@ -418,6 +429,7 @@ font-family: 'Roboto', sans-serif;
     margin: 0px auto;
     text-align: center;
     align-items: center;
+    padding: 10px;
   }
   
   .patrocinadores-oficiales{
@@ -425,6 +437,7 @@ font-family: 'Roboto', sans-serif;
     color: rgb(33, 54, 111);
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    padding: 10px;
   }
   
   .imagenes-varias1{
@@ -432,6 +445,7 @@ font-family: 'Roboto', sans-serif;
     margin: 0px auto;
     text-align: center;
     align-items: center;
+    padding: 10px;
   }
   
   .imagenes_varias2{
@@ -439,6 +453,7 @@ font-family: 'Roboto', sans-serif;
     margin: 0px auto;
     text-align: center;
     align-items: center;
+    padding: 10px;
   }
   
   .imagenes-varias3{
@@ -446,6 +461,7 @@ font-family: 'Roboto', sans-serif;
     margin: 0px auto;
     text-align: center;
     align-items: center;
+    padding: 10px;
   }
   
   .imagenes-varias4{
@@ -453,6 +469,7 @@ font-family: 'Roboto', sans-serif;
     margin: 0px auto;
     text-align: center;
     align-items: center;
+    padding: 10px;
   }
 
   @media (max-width: 440px){
