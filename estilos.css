@@ -594,14 +594,16 @@ ul {
 
   .pie-de-pagina{
     color: rgb(0, 0, 0);
-    width: 100%;
-    margin: 0 auto;
   }
   
   .iconos-redes{
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contenedor-iconos-redes .iconos-redes img{
+    margin-left: 20px;
   }
   
   .sitio-desarrollado-por{
@@ -614,15 +616,14 @@ ul {
   }
   
   .contenedor-iconos-redes{
-    width: 100%;
     padding: 10px;
     background-color: rgb( 33, 54, 111);
-    margin: 0 auto;
   }
   
   .contenedor-sitio-desarrollador{
     width: 100%;
-    padding: 1%;
+    padding: 10px;
     background-color: rgb( 105, 223, 225);
-    margin: 0 auto;
+    text-align: center;
+    align-items: center;
   }
