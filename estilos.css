@@ -227,11 +227,11 @@ font-family: 'Roboto', sans-serif;
   }
 
   .torneo:hover .frente{
-    transform: perspective(2600px) rotateY(180deg)
+    transform: perspective(3000px) rotateY(180deg)
   }
 
   .torneo:hover .dorso{
-    transform: perspective(2600px) rotateY(360deg)
+    transform: perspective(3000px) rotateY(360deg)
   }
 
 /*" RANKING "*/
@@ -486,6 +486,108 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 0 auto;
     padding: 20px;
+}
+
+.conteneiner-formulario{
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3em;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: rgb(73, 73, 73);
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+  display: block;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+  font-size: 20px;
+}
+
+.contact-form form button, .contact-form form input, .contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.contact-form form button {
+  background: rgb(0, 0, 0);
+  border: 0;
+  padding: 1em;
+}
+
+.contact-info {
+  background: rgb(33, 54, 111);
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  font-size: 20px;
+}
+
+@media (max-width: 480px){
+  form{
+      width: 96%;
+  }
+}
+
+@media(min-width: 700px) {
+  .conteneiner-formulario{
+      padding: 0 4em;
+  }
+  .contact-wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+      padding: 2em;
+  }
+  .contact-info,
+  .contact-info ul,
+  .contact-info p {
+      text-align: left;
+  }
 }
 
   /*" FOOTER "*/
