@@ -583,9 +583,10 @@ ul {
   .contact-wrapper > * {
       padding: 2em;
   }
+
   .contact-info,
   .contact-info ul,
-  .contact-info p {
+  .contact-info p{
       text-align: left;
   }
 }
