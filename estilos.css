@@ -36,6 +36,28 @@ body{
   }
 }
 
+/*" CABECERA "*/
+
+.cabecera{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.reglamento h2{
+  font-size: 20px;
+  background-color: blue;
+  padding: 16px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
+}
+
+.entradas h2{
+  font-size: 20px;
+}
+
+
 /*" MENU "*/
 
 .navbar{
