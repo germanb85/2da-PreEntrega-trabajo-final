@@ -44,17 +44,31 @@ body{
   align-items: center;
 }
 
-.reglamento h2{
-  font-size: 20px;
-  background-color: blue;
-  padding: 16px;
-  border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
-  color: aliceblue;
+.reglamento{
+  transform: translate(240px, 20px);
 }
 
-.entradas h2{
-  font-size: 20px;
+.reglamento a{
+  background-color: rgb(33, 54, 111);
+  padding: 16px;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.entradas{
+  transform: translate(-240px, 20px);
+}
+
+.entradas a{
+  font-size: 16px;
+  background-color: rgb(33, 54, 111);
+  padding: 16px;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 
