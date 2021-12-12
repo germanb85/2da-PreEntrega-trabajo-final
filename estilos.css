@@ -71,6 +71,17 @@ body{
   text-decoration: none;
 }
 
+@media (max-width: 1000px){
+  .cabecera .reglamento {
+      display: none;
+  }
+}
+
+@media (max-width: 1000px){
+  .cabecera .entradas {
+      display: none;
+  }
+}
 
 /*" MENU "*/
 
