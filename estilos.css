@@ -72,13 +72,13 @@ body{
 }
 
 @media (max-width: 1000px){
-  .cabecera .reglamento {
+  .reglamento {
       display: none;
   }
 }
 
 @media (max-width: 1000px){
-  .cabecera .entradas {
+  .entradas {
       display: none;
   }
 }
@@ -421,7 +421,7 @@ font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
   }
 
-/*" VIDEO YOU TUBE INDEX "*/
+/*" VIDEO YOU TUBE "*/
 
 .titulo-video-yotube{
     text-align: center;
