@@ -71,18 +71,6 @@ body{
   text-decoration: none;
 }
 
-@media (max-width: 1000px){
-  .reglamento {
-      display: none;
-  }
-}
-
-@media (max-width: 1000px){
-  .entradas {
-      display: none;
-  }
-}
-
 /*" MENU "*/
 
 .navbar{
@@ -290,12 +278,6 @@ font-family: 'Roboto', sans-serif;
     margin-top: 10px;
 }
 
-@media (max-width: 760px){
-    .table{
-      display: none;
-    }
-  }
-
 .contenedor-masculino{
     display: flex;
     align-items: center;
@@ -390,13 +372,6 @@ font-family: 'Roboto', sans-serif;
     justify-content: center;
   }
 
-  @media (max-width: 1989px){
-    .contenedor-masculino{
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-    }
-  }
-
 /*" FOTOS "*/
 
 .carusel{
@@ -423,108 +398,69 @@ font-family: 'Roboto', sans-serif;
 
 /*" VIDEO YOU TUBE "*/
 
+.youtube{
+  width: auto;
+  background-color: rgb(33, 54, 111);
+  margin: 0 auto;
+  padding: 30px;
+}
+
 .titulo-video-yotube{
-    text-align: center;
-    color: rgb(105, 223, 225);
-    font-size: 20px;
-  }
+  text-align: center;
+  color: rgb(105, 223, 225);
+  font-size: 20px;
+}
   
   .video-yotube{
     width: auto;
     text-align: center;
   }
-  
-  .youtube{
-    width: auto;
-    background-color: rgb(33, 54, 111);
-    margin: 0 auto;
-    padding: 30px;
-  }
 
+  iframe{
+    width: 80%;
+    height: 400px;
+  }
+  
 /*" PATROCINADORES "*/
 
-.patrocinadores-logo{
-  padding: 20px;
+h3{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
 }
 
-.socio-principal{
-    text-align: center;
-    color: rgb(33, 54, 111);
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    padding: 10px;
-  }
-  
-  .imagen-adidas{
-    width: auto;
-    margin: 0px auto;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .socio-premium{
-    text-align: center;
-    color: rgb(33, 54, 111);
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    padding: 10px;
-  }
-  
-  .imagen-coca-cola{
-    width: auto;
-    margin: 0px auto;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .patrocinadores-oficiales{
-    text-align: center;
-    color: rgb(33, 54, 111);
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    padding: 10px;
-  }
-  
-  .imagenes-varias1{
-    width: auto;
-    margin: 0px auto;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .imagenes_varias2{
-    width: auto;
-    margin: 0px auto;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .imagenes-varias3{
-    width: auto;
-    margin: 0px auto;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .imagenes-varias4{
-    width: auto;
-    margin: 0px auto;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-  }
-
-  @media (max-width: 440px){
-    .patrocinadores-logo{
-        width: 96%;
-    }
+.patrocinadores{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
+.adidas{
+  padding: 10px;
+  width: auto;
+}
+
+.coca-cola{
+  padding: 10px;
+  width: auto;
+}
+
+.head{
+  padding: 10px;
+  width: auto;
+}
+
+.quilmes{
+  padding: 10px;
+  width: auto;
+}
+
+.joma{
+  padding: 10px;
+  width: auto;
+}
 /*" CONTACTO "*/
 
 .mapa{
@@ -613,31 +549,6 @@ ul {
   font-size: 20px;
 }
 
-@media (max-width: 480px){
-  form{
-      width: 96%;
-  }
-}
-
-@media(min-width: 700px) {
-  .conteneiner-formulario{
-      padding: 0 4em;
-  }
-  .contact-wrapper {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-  }
-  .contact-wrapper > * {
-      padding: 2em;
-  }
-
-  .contact-info,
-  .contact-info ul,
-  .contact-info p{
-      text-align: left;
-  }
-}
-
   /*" FOOTER "*/
 
   .pie-de-pagina{
@@ -675,3 +586,67 @@ ul {
     text-align: center;
     align-items: center;
   }
+
+  /*" MEDIAQUERIES "*/
+
+  @media (max-width: 760px){
+    .table{
+      display: none;
+    }
+  }
+
+  @media (max-width: 1989px){
+    .contenedor-masculino{
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 400px){
+    .youtube{
+        display: none;
+    }
+}
+
+@media (max-width: 440px){
+  .patrocinadores-logo{
+      width: 96%;
+  }
+}
+
+@media (max-width: 480px){
+  form{
+      width: 96%;
+  }
+}
+
+@media(min-width: 700px) {
+  .conteneiner-formulario{
+      padding: 0 4em;
+  }
+  .contact-wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+      padding: 2em;
+  }
+
+  .contact-info,
+  .contact-info ul,
+  .contact-info p{
+      text-align: left;
+  }
+}
+
+@media (max-width: 1000px){
+  .reglamento {
+      display: none;
+  }
+}
+
+@media (max-width: 1000px){
+  .entradas {
+      display: none;
+  }
+}
