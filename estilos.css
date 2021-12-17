@@ -153,7 +153,7 @@ font-family: 'Roboto', sans-serif;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  min-width: 100vh;
+  
 }
 
 .torneo{
@@ -558,10 +558,16 @@ ul {
     padding: 10px;
     background-color: rgb( 105, 223, 225);
     text-align: center;
-    align-items: center;
+    align-items: center;  
   }
 
   /*" MEDIAQUERIES "*/
+
+  @media (max-width: 246px){
+    .logo-portada{
+      display: none;
+    }
+  }
 
   @media (max-width: 760px){
     .table{
@@ -576,16 +582,49 @@ ul {
     }
   }
 
-  @media (max-width: 400px){
+  @media (max-width: 450px){
     .youtube{
         display: none;
     }
 }
 
-@media (max-width: 440px){
-  .patrocinadores-logo{
-      width: 96%;
+@media (max-width: 350px){
+  .mt-0{
+    display: none;
+}
+}
+
+@media (max-width: 350px){
+  .contenedor-patrocinadores h3{
+    display: none;
+}
+}
+
+@media (max-width: 773px){
+    .contenedor-patrocinadores .patrocinadores .marcas{
+      text-align: center;   
   }
+}
+
+@media (max-width: 773px){
+  .adidas-joma img{
+    width: 40%;
+    margin: 20px;
+}
+}
+
+@media (max-width: 773px){
+  .head1-quilmes img{
+    width: 40%;
+    margin: 20px;
+}
+}
+
+@media (max-width: 773px){
+  .bullpadel-cocacola img{
+    width: 40%;
+    margin: 20px;
+}
 }
 
 @media (max-width: 480px){
@@ -619,8 +658,23 @@ ul {
   }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px){  
   .entradas {
       display: none;
+  }                           
+}
+
+@media (max-width: 370px){
+  .iconos-redes img{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 290px){
+  .logo-formulario{
+    display: none;
+    
   }
 }
