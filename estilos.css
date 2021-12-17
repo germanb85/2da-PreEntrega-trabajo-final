@@ -148,130 +148,89 @@ font-family: 'Roboto', sans-serif;
   
 /*" TORNEOS "*/
 
-.contenedor-torneo{
+.torneo{
+  background: rgb(33, 54, 111);
+  color: #555555;
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.cards_wrap {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  
 }
 
-.torneo{
-  position: relative;
-  width: 360px;
-  height: 480px;
-  margin: 30px;
+.cards_wrap .card_item {
+  width: 25%;
+  padding: 10px;
 }
 
-.torneo .face{
-  position: absolute;
+.cards_wrap .card_inner {
+  background: #fff;
+}
+
+.cards_wrap .card_top {
   width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: 2s;
+  height: auto;
+  padding: 10px;
+  padding-bottom: 0;
 }
 
-.torneo .frente{
-  transform:  rotateY(0deg);
-  box-shadow: 0 5px 10px rgb(0, 0, 0);
-}
-
-.torneo .frente img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.torneo .dorso{
-  transform:  rotateY(180deg);
+.cards_wrap .card_bottom {
   padding: 15px;
-  color: rgb(202, 202, 202);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   text-align: center;
-  box-shadow: 0 5px 10px rgb(0, 0, 0);
-  font-family: 'Roboto', sans-serif;
 }
 
-.torneo .dorso .link{
-  border-top: solid 1px rgb(0, 0, 0);
-  height: 50px;
-  line-height: 70px;
-  font-family: 'Roboto', sans-serif;
-  }
+.cards_wrap .card_bottom .card_category {
+  text-transform: uppercase;
+  text-align: center;
+}
 
-  .torneo .dorso .link a{
-    color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    background-color: rgb(131, 131, 131);
-    padding: 5px;
-    border-radius: 10px;
-  }
+.cards_wrap .card_bottom .card_info {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px dashed #0071bc;
+}
 
-  .torneo .dorso h3{
-    font-size: 50px;
-    margin-top: 10px;
-    letter-spacing: 2px;
-    font-family: 'Roboto', sans-serif;
-  }
+.cards_wrap .card_bottom .card_info .title {
+  color: #0071bc;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
 
-  .torneo .dorso p{
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-  }
+.cards_wrap .card_bottom .card_creator {
+  text-align: center;
+}
 
-  .imagen0{
-    background-image: url(imagenes/0-ccp-dorso.jpg);
+@media (max-width: 1024px) {
+  .cards_wrap .card_item {
+    width: 33.3%;
   }
-  .imagen1{
-    background-image: url(imagenes/1-ccp-dorso.jpg);
-  }
-  .imagen2{
-    background-image: url(imagenes/2-ccp-dorso.jpg);
-  }
-  .imagen3{
-    background-image: url(imagenes/3-ccp-dorso.jpg);
-  }
-  .imagen4{
-    background-image: url(imagenes/4-ccp-dorso.jpg);
-  }
-  .imagen5{
-    background-image: url(imagenes/5-ccp-dorso.jpg);
-  }
-  .imagen6{
-    background-image: url(imagenes/6-ccp-dorso.jpg);
-  }
-  .imagen7{
-    background-image: url(imagenes/7-ccp-dorso.jpg);
-  }
-  .imagen8{
-    background-image: url(imagenes/8-ccp-dorso.jpg);
-  }
-  .imagen9{
-    background-image: url(imagenes/9-ccp-dorso.jpg);
-  }
-  .imagen10{
-    background-image: url(imagenes/10-ccp-dorso.jpg);
-  }
-  .imagen11{
-    background-image: url(imagenes/11-ccp-dorso.jpg);
-  }
+}
 
-  .torneo .dorso p{
-    letter-spacing: 1px;
+@media (max-width: 768px) {
+  .cards_wrap .card_item {
+    width: 50%;
   }
+}
 
-  .torneo:hover .frente{
-    transform: perspective(3000px) rotateY(180deg)
+@media (max-width: 528px) {
+  .cards_wrap .card_item {
+    width: 100%;
   }
+}
 
-  .torneo:hover .dorso{
-    transform: perspective(3000px) rotateY(360deg)
-  }
+
 
 /*" RANKING "*/
 
